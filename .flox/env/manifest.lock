@@ -1,0 +1,854 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "ccze": {
+        "pkg-path": "ccze",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      },
+      "curl": {
+        "pkg-path": "curl"
+      },
+      "git": {
+        "pkg-path": "git"
+      },
+      "gum": {
+        "pkg-path": "gum",
+        "version": "^0.14.5"
+      },
+      "nano": {
+        "pkg-path": "nano"
+      },
+      "tmux": {
+        "pkg-path": "tmux"
+      },
+      "vim": {
+        "pkg-path": "vim"
+      }
+    },
+    "hook": {
+      "on-activate": "#   # -> Set variables, create files and directories\n#   # -> Perform initialization steps, e.g. create a python venv\n#   # -> Useful environment variables:\n#   #      - FLOX_ENV_PROJECT=/home/user/example\n#   #      - FLOX_ENV=/home/user/example/.flox/run\n#   #      - FLOX_ENV_CACHE=/home/user/example/.flox/cache\n   echo 'Hello'\n"
+    },
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "ccze",
+      "broken": false,
+      "derivation": "/nix/store/dnvxi11s81yi5r535gr9kp6llkrnj63i-ccze-0.2.1-8.drv",
+      "description": "Fast, modular log colorizer",
+      "install_id": "ccze",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "ccze-0.2.1-8",
+      "pname": "ccze",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.2.1-8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dcc6mr2n2rwvd37di7snjc8xvrxfjy85-ccze-0.2.1-8"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ccze",
+      "broken": false,
+      "derivation": "/nix/store/4v0nly4k6d4f24dbpc4c9r0mr967ffcd-ccze-0.2.1-8.drv",
+      "description": "Fast, modular log colorizer",
+      "install_id": "ccze",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "ccze-0.2.1-8",
+      "pname": "ccze",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.2.1-8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/azq8avb3w8zvk0ids8d4sdw6fgiz1c8q-ccze-0.2.1-8"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/9prb1w9v1bs7204ma5g6mgy4dnf1dcbb-curl-8.11.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "curl-8.11.0",
+      "pname": "curl",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.11.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/78b40bakdk6ldzd2cnzqqc6k2ffq6q80-curl-8.11.0-bin",
+        "dev": "/nix/store/x8qcqapnc2656j9pmhycqw5gjsg8wj95-curl-8.11.0-dev",
+        "devdoc": "/nix/store/3jkma0k7qwx82djlzac798hnhky6s2mw-curl-8.11.0-devdoc",
+        "man": "/nix/store/p28ziicmg9c8y0j7zlhfab3cz2jl84jq-curl-8.11.0-man",
+        "out": "/nix/store/j39kv1qva1ndbbfc6b7rqipz5fs9pnvc-curl-8.11.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/m5qsrq5d3ix0y4hkzwcmjhizzsqi0sf3-curl-8.11.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "curl-8.11.0",
+      "pname": "curl",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.11.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/wq37ah6ayglskxv1viw204j246miz9mw-curl-8.11.0-bin",
+        "debug": "/nix/store/hz05x0jdczalgjxivm8m1ni56hamkrh1-curl-8.11.0-debug",
+        "dev": "/nix/store/8q0a3mgciq1alhn51ga7pcj491w42frm-curl-8.11.0-dev",
+        "devdoc": "/nix/store/081g6dj7mniw7fjzn5byf9vpzk36yg4h-curl-8.11.0-devdoc",
+        "man": "/nix/store/b8rfm1q2rakp4nml9l61s45v3pg2iah4-curl-8.11.0-man",
+        "out": "/nix/store/fqwkalsvg898sgf969bqpaz4blypx5gd-curl-8.11.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/kdcr3ssg3ckxvyghv2pkf6fbz15y5b4c-curl-8.11.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "curl-8.11.0",
+      "pname": "curl",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.11.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/d9hsgziq68q5qaasrm8rcmvvk7idry85-curl-8.11.0-bin",
+        "dev": "/nix/store/5vkqd75k1d4wk6dsgdzxsfv9p692abia-curl-8.11.0-dev",
+        "devdoc": "/nix/store/br90i57yq5fnqz9kc52lg0d8cpz5xkvi-curl-8.11.0-devdoc",
+        "man": "/nix/store/pri71vk0srs4174n79v3rrsasi0cfcl7-curl-8.11.0-man",
+        "out": "/nix/store/ppzjbkfncrrxmiyh5h32pdn4lk8bi4ba-curl-8.11.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/aghzbv1fia6f8wwyykg3lyixpq86fycs-curl-8.11.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "curl-8.11.0",
+      "pname": "curl",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.11.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/r686j19q8zcnccpg5h9xlf7bvvs27b8s-curl-8.11.0-bin",
+        "debug": "/nix/store/j4l8vnw7cqpiw68mf0gxaqx98hw5fcpb-curl-8.11.0-debug",
+        "dev": "/nix/store/h269afcqsqykvbsnhrbpw9lghaff47dz-curl-8.11.0-dev",
+        "devdoc": "/nix/store/8xcjvalpnmcn6c6af3rhshl0ahnxw9dl-curl-8.11.0-devdoc",
+        "man": "/nix/store/rlls2vbms86vcrf7z2savrh0x0gbbk8h-curl-8.11.0-man",
+        "out": "/nix/store/ixq7chmml361204anwph16ll2njcf19d-curl-8.11.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/27xk13dwg6zbib0clmc2ajrx0rqiil0q-git-2.47.0.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "git-2.47.0",
+      "pname": "git",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.47.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/7k5wgpxhjnabixsx4br9xm56rw106ri3-git-2.47.0-doc",
+        "out": "/nix/store/i7460fczrp4ac460v0gibqddj7n8w8iz-git-2.47.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/ssqazn4ff876yinigh4rbfypnb9iwagh-git-2.47.0.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "git-2.47.0",
+      "pname": "git",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.47.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/g1iyg13q0f05vf5yllvmrhqhzgggg5lf-git-2.47.0-debug",
+        "doc": "/nix/store/6md7q4bvv9zzw2xycra4b2msg4f37n34-git-2.47.0-doc",
+        "out": "/nix/store/4ahzcjrsrv96qbcpmm4ybqkdjcbgblvc-git-2.47.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/gvagdz2ly0v87w81x5wqizxv5g01npqf-git-2.47.0.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "git-2.47.0",
+      "pname": "git",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.47.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/am9wvlvgah4qjkbhzvryl0jnarakss5g-git-2.47.0-doc",
+        "out": "/nix/store/y161xdvlji6nxcfx6xs049w3kasgjgcz-git-2.47.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/cjmnsp6im6wgccf5pfcz1lmikqs4bsy8-git-2.47.0.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "git-2.47.0",
+      "pname": "git",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.47.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/i48viyk4j244008yxb5snhiffhwkgh00-git-2.47.0-debug",
+        "doc": "/nix/store/g4qfyzlr8gfink7g62kwh7cyan9zv91d-git-2.47.0-doc",
+        "out": "/nix/store/1zgzrsbq3b0f06k76pha0r8hmfwvjvc0-git-2.47.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/aca39ag4xf38ays966y23b3p9xagn7yr-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/2kh20kzsh8p9b045janwracxwh43zzcf-gum-0.14.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/hyb2nyh522k9zqqw7pqx6qv52ffhmn85-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/l82bhnw3lbrpjszs98wwgfnr5zkz3rz8-gum-0.14.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/gf7l3khqfnhlx0wi4ycdrx8wxzc56lgi-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/652lcsz1jind3y4dbg4vnfas6fvhblf9-gum-0.14.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gum",
+      "broken": false,
+      "derivation": "/nix/store/dxn3jm44jgpvwc6lvfgjlzaksqyzp7v7-gum-0.14.5.drv",
+      "description": "Tasty Bubble Gum for your shell",
+      "install_id": "gum",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "gum-0.14.5",
+      "pname": "gum",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.14.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0dl1rmdsxqn0x775zb433bf8cfar3cxv-gum-0.14.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nano",
+      "broken": false,
+      "derivation": "/nix/store/a8jnwcqv4zyw5a4mbk9km91mmd5fb3ah-nano-8.2.drv",
+      "description": "Small, user-friendly console text editor",
+      "install_id": "nano",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "nano-8.2",
+      "pname": "nano",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/wqza660p8jivnqgm12l6n3afmv4ca6vz-nano-8.2-info",
+        "out": "/nix/store/yqznpvs6d891yaj9mr7wgsvaid4lm0s2-nano-8.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nano",
+      "broken": false,
+      "derivation": "/nix/store/c7r1iaznnfnzr1hmxmk56xdjxl67nxpn-nano-8.2.drv",
+      "description": "Small, user-friendly console text editor",
+      "install_id": "nano",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "nano-8.2",
+      "pname": "nano",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/xkdasmw2bg1g3vgv6mnwlcjps3cv4k1a-nano-8.2-info",
+        "out": "/nix/store/w2cd7plddpzg57inx92p5z7qzmd4zsxs-nano-8.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nano",
+      "broken": false,
+      "derivation": "/nix/store/vx17b0nsi3ksa6zjflzqriiv0w4d5lkn-nano-8.2.drv",
+      "description": "Small, user-friendly console text editor",
+      "install_id": "nano",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "nano-8.2",
+      "pname": "nano",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/d2kgscf1vl93k90mxcsq7975m1rzvgvv-nano-8.2-info",
+        "out": "/nix/store/g7q4w4zrr6hr68qi5i7ym5mppvnqcbjv-nano-8.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nano",
+      "broken": false,
+      "derivation": "/nix/store/jyq3z5dp7savp99n9gw0xcmjjk7mhjd5-nano-8.2.drv",
+      "description": "Small, user-friendly console text editor",
+      "install_id": "nano",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "nano-8.2",
+      "pname": "nano",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "info": "/nix/store/2ffbwky2qz63kxq2yhchx76wlkvb9j6i-nano-8.2-info",
+        "out": "/nix/store/028y5rvlnq6vzpvbvvbx85nzd70nvl69-nano-8.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/0kfr2zwxk4j5xgcrh4p0a8vx10bx70yf-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/z2qll2ybawq7fpx8715rhy4kslfqzk2g-tmux-3.5a-man",
+        "out": "/nix/store/hj1ngasb3qwmbmaj9b2gq9s19hf346sz-tmux-3.5a"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/zlrmjc1qrjy8kx6z3y2d8d6p9dlvhgya-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/njbhr0g18j4bhas9hq1vg8vg4gf71v27-tmux-3.5a-man",
+        "out": "/nix/store/zax47izvdcagly5lgh8f1syf8i34c8ks-tmux-3.5a"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/7899afn9wan1bq92ljd9dj2hym8cl526-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/i2pzw800wp5n3x45sndb706mapvfp56d-tmux-3.5a-man",
+        "out": "/nix/store/n7546nc9vj4djm4a78syic6hqsnx1nl8-tmux-3.5a"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/lyb48r7a9w7kwn2msf3k2hrc2daw5vbi-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "man": "/nix/store/5mnr4nsv0ybasc3asvs7zvc28yjmksz5-tmux-3.5a-man",
+        "out": "/nix/store/d8hzzxpnn22h6081a95r4889bc4zpb0y-tmux-3.5a"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vim",
+      "broken": false,
+      "derivation": "/nix/store/7wi2cv7jx1lwf5v2li7y02g2d459zwrp-vim-9.1.0787.drv",
+      "description": "Most popular clone of the VI editor",
+      "install_id": "vim",
+      "license": "Vim",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "vim-9.1.0787",
+      "pname": "vim",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.1.0787",
+      "outputs_to_install": [
+        "out",
+        "xxd"
+      ],
+      "outputs": {
+        "out": "/nix/store/avkdv4x822cv506rnhlj731ys6fjs6bf-vim-9.1.0787",
+        "xxd": "/nix/store/07radvidggn9id4rgd4p15cxdwdx9gyc-vim-9.1.0787-xxd"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vim",
+      "broken": false,
+      "derivation": "/nix/store/4g55qr3c6r12n190hpp0v2nhvmvkg5h4-vim-9.1.0787.drv",
+      "description": "Most popular clone of the VI editor",
+      "install_id": "vim",
+      "license": "Vim",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "vim-9.1.0787",
+      "pname": "vim",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.1.0787",
+      "outputs_to_install": [
+        "out",
+        "xxd"
+      ],
+      "outputs": {
+        "out": "/nix/store/3x3dvwm09wmawvfmi5cqhf0fvvcwd9r9-vim-9.1.0787",
+        "xxd": "/nix/store/glz0jxqnc6rkcpp13g11b30vhlffn00b-vim-9.1.0787-xxd"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vim",
+      "broken": false,
+      "derivation": "/nix/store/rkilwd5x7gpdqr2ixkvfmjzyigann14p-vim-9.1.0787.drv",
+      "description": "Most popular clone of the VI editor",
+      "install_id": "vim",
+      "license": "Vim",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "vim-9.1.0787",
+      "pname": "vim",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.1.0787",
+      "outputs_to_install": [
+        "out",
+        "xxd"
+      ],
+      "outputs": {
+        "out": "/nix/store/x8jhgq3svfrdr9f82shcb44xjq95aklm-vim-9.1.0787",
+        "xxd": "/nix/store/1z0h9cv27m1rdqfj107asjbg8vdv99d6-vim-9.1.0787-xxd"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vim",
+      "broken": false,
+      "derivation": "/nix/store/ygp97whkakblmsha6nvd81bgjxq1k00p-vim-9.1.0787.drv",
+      "description": "Most popular clone of the VI editor",
+      "install_id": "vim",
+      "license": "Vim",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "name": "vim-9.1.0787",
+      "pname": "vim",
+      "rev": "d3c42f187194c26d9f0309a8ecc469d6c878ce33",
+      "rev_count": 723344,
+      "rev_date": "2024-12-17T08:37:14Z",
+      "scrape_date": "2024-12-19T03:52:25Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "9.1.0787",
+      "outputs_to_install": [
+        "out",
+        "xxd"
+      ],
+      "outputs": {
+        "out": "/nix/store/lm541xsvn1bc4v1fblq2cxn3y6rf08jg-vim-9.1.0787",
+        "xxd": "/nix/store/p5awpyxqccsv498gq24xr1cwwprd1bd6-vim-9.1.0787-xxd"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
